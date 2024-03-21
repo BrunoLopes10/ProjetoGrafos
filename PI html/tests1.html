@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imprimir Informações do Botão</title>
+</head>
+<body>
+
+    <h2>Dados</h2>
+
+<button id="meuBotao" data-info="Nome, E-mail e Passoword">Clique aqui</button>
+
+<div id="infoImprimir"></div>
+
+<script>
+// Capturando o botão e o elemento onde vamos imprimir as informações
+var botao = document.getElementById('meuBotao');
+var infoParaImprimir = document.getElementById('infoImprimir');
+
+// Função para imprimir as informações
+function imprimirInformacoes() {
+    var informacao = botao.getAttribute('data-info');
+    infoParaImprimir.textContent = informacao;
+}
+
+// Adicionando um ouvinte de evento para quando o botão é clicado
+botao.addEventListener('click', imprimirInformacoes);
+</script>
+
+</body>
+</html>
