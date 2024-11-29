@@ -1,0 +1,5 @@
+
+Resultados para NY.txt:
+Grafo: n = 264346, m = 733846
+Custo CM: 495306, Tempo (s): 874,89569
+Custo AGM: 261159288, Tempo (s): 623,42018
