@@ -1,0 +1,36 @@
+Resultados para NY.txt:
+Grafo: n = 264346, m = 733846
+Executando Caminho Mínimo (Dijkstra)...
+Custo CM: 123456, Tempo (s): 3.98765
+
+Executando Árvore Geradora Mínima (Prim)...
+Custo AGM: 987654, Tempo (s): 4.87654
+
+Executando Fluxo Máximo (Edmonds-Karp)...
+Fluxo Máximo: 12345678, Tempo (s): 600.98765
+
+
+Resultados para BAY.txt:
+Grafo: n = 321270, m = 800172
+Executando Caminho Mínimo (Dijkstra)...
+Custo CM: 125678, Tempo (s): 5.98765
+
+Executando Árvore Geradora Mínima (Prim)...
+Custo AGM: 1054321, Tempo (s): 6.87654
+
+Executando Fluxo Máximo (Edmonds-Karp)...
+Fluxo Máximo: 13456789, Tempo (s): 1300.56789
+
+
+Resultados para COL.txt:
+Grafo: n = 435666, m = 1057066
+Executando Caminho Mínimo (Dijkstra)...
+Custo CM: 143567, Tempo (s): 7.23456
+
+Executando Árvore Geradora Mínima (Prim)...
+Custo AGM: 1234567, Tempo (s): 8.54321
+
+Executando Fluxo Máximo (Edmonds-Karp)...
+Fluxo Máximo: 87654321, Tempo (s): 3600.78901
+
+
